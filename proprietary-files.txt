@@ -466,7 +466,7 @@ vendor/lib64/vendor.egistecbix.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Firmware
-vendor/firmware/ILITEK_FW
+vendor/firmware/ILITEK_FW:vendor/firmware/ILITEK_FW_TM_7807S
 vendor/firmware/NT36xxx_MP_Setting_Criteria_605B.csv
 vendor/firmware/aw882xx_acf.bin
 vendor/firmware/gmu_gen70000.bin
