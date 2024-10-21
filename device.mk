@@ -29,6 +29,9 @@ DEVICE_CHARACTERISTICS += hfr
 # Device path
 DEVICE_PATH := device/motorola/yume/rootdir
 
+# Touchscreen
+$(call copy-files-recursive,$(DEVICE_PATH)/vendor,$(TARGET_COPY_OUT_VENDOR))
+
 # Model
 PRODUCT_MODEL := moto g stylus 5g 2023
 
